@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://kit.fontawesome.com/f45f47b4ca.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="stle.css">
+     <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="con container">
+        <header id="header" class="bg-dark text-white p-4 mt-5" style="border-radius: 6px;">
+        <div class="row">
+         <div class="col-md-12">
+            <h1>ToDo List</h1>
+            <i class="fa-solid fa-pencil" style="float:right;" id="pencill"></i>
+         </div>
+        </div>
+    </header>
+         <div class="card mt-2" id="cardd">
+            <div class="card-body mt-2">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Activities to do... " id="input-field" style="font-size: large;">
+                    <div class="input-group-text">
+                        <i class="fas fa-plus-circle" id="addto"></i>
+                      </div>
+                  </div>
+                  <div class="ToDos" id="todo-container"> 
+                  </div>
+            </div>
+         </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   
+  
+</body>
+</html>

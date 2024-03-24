@@ -1,0 +1,12 @@
+body{
+    background-color: slategrey;
+}
+.card{
+    border-radius: 9px;
+}
+#pencill{
+    font-size: larger;
+}
+@media screen and (min-width: 375px) {
+    
+}
