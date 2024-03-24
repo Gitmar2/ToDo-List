@@ -1,5 +1,5 @@
 body{
-    background-color: slategrey;
+    background-color: darkgrey;
 }
 .card{
     border-radius: 9px;
@@ -8,5 +8,7 @@ body{
     font-size: larger;
 }
 @media screen and (min-width: 375px) {
-    
+    body{
+        
+    }
 }
